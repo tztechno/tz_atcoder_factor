@@ -2,8 +2,29 @@
 ############################################
 ############################################
 ############################################
+//abc023_a
+USING: kernel io sequences math math.parser ;
+readln
+string>number
+10 /mod +
+number>string
+print
 ############################################
+//abc029_a
+USING: kernel io sequences ;
+readln
+write
+"s"
+print
 ############################################
+//abc035_a
+USING: kernel io sequences splitting math.parser math ;
+readln " " split [ string>number ] map first2
+4 * swap 3 * =
+[ "4:3" print ]
+[ "16:9" print ]
+if
+
 ############################################
 //abc011_a
 USING: kernel io math.parser math ;

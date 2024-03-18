@@ -1,3 +1,4 @@
+##################################################
 USING: kernel io sequences math math.parser ;
 readln
 string>number
@@ -6,3 +7,11 @@ string>number
 [ "NO" ]
 if
 print
+##################################################
+n = int(input())
+if n%3==0:
+    ans='YES'
+else:
+    ans ='NO'
+print(ans)
+##################################################

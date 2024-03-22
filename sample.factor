@@ -1,6 +1,11 @@
 ############################################
 ############################################
 ############################################
+USING: io sequences math math.parser ;
+readln
+string>number
+number>string
+print
 ############################################
 //abc023_a
 USING: kernel io sequences math math.parser ;

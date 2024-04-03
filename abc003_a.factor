@@ -5,4 +5,17 @@
 ######################################
 ######################################
 ######################################
+[test AC but submission MLE]
+
+USING: kernel io sequences splitting math math.parser ;
+readln
+string>number
+1
++
+2
+/
+10000
+*
+number>string
+print
 ######################################

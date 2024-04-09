@@ -6,6 +6,7 @@ abc099_a.factor
 #########################################
 #########################################
 #########################################
+
 USING: kernel io sequences math math.parser ;
 readln 
 string>number 

@@ -1,6 +1,14 @@
+####################################################
+USING: kernel io ;
+
+readln
+"1" =
+[ "ABC" print ]
+[ "chokudai" print ]
+if
 
 ####################################################
-USING: kernel io sequences splitting math math.parser ;
+USING: kernel io math math.parser ;
 readln
 string>number
 1

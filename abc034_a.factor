@@ -1,9 +1,16 @@
 ##################################################
-[error]
-
-USING: kernel io sequences math math.parser ;
+USING: kernel io sequences splitting math.parser math ;
 readln " " split [ string>number ] map first2
-first < second ?
+<
+[ "Better" print ]
+[ "Worse" print ]
+if
+##################################################
+[my AC]
+
+USING: kernel io sequences splitting math.parser math ;
+readln " " split [ string>number ] map first2
+<
 [ "Better" ]
 [ "Worse" ]
 if

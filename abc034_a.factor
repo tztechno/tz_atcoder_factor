@@ -1,5 +1,8 @@
 ##################################################
 USING: kernel io sequences splitting math.parser math ;
+##################################################
+##################################################
+USING: kernel io sequences splitting math.parser math ;
 readln " " split [ string>number ] map first2
 <
 [ "Better" print ]
